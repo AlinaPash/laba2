@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include "task7_func.cpp"
 using namespace std;
 void f();
@@ -7,10 +7,10 @@ void main()
 	setlocale(LC_ALL, "Russian");
 	cout.precision(4);
 	f();
-cout << "Çàäàííûé x = " << x << "; " << endl;
-cout << "Çíà÷åíèå ôóíêöèè ïðè çàäàííîì x: f = " << result << "; " << endl;
-cout << "Ââåäèòå õ:";
+cout << "Ã‡Ã Ã¤Ã Ã­Ã­Ã»Ã© x = " << x << "; " << endl;
+cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã§Ã Ã¤Ã Ã­Ã­Ã®Ã¬ x: f = " << result << "; " << endl;
+cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ãµ:";
 cin >> x;
 	f();
-	cout << "Çíà÷åíèå ôóíêöèè ïðè ââåä¸ííîì x: f = " << result << "; " << endl;
-}*/
+	cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã¢Ã¢Ã¥Ã¤Â¸Ã­Ã­Ã®Ã¬ x: f = " << result << "; " << endl;
+}
