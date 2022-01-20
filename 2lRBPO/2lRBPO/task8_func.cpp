@@ -1,3 +1,3 @@
-/*#include "func.h"
+#include "func.h"
 double x = 7;
-double result;*/
+double result;
