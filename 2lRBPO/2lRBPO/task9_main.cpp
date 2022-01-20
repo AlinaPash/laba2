@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include "func1.h"
 
 using namespace std;
@@ -9,10 +9,10 @@ void main()
 	cout.precision(4);
 
 	Pashkovskya::f();
-	cout << "Çàäàííûé x = " << x << "; " << endl;
-cout << "Çíà÷åíèå ôóíêöèè ïðè çàäàííîì x: f = " << result << "; " << endl;
-cout << "Ââåäèòå õ:";
+	cout << "Ã‡Ã Ã¤Ã Ã­Ã­Ã»Ã© x = " << x << "; " << endl;
+cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã§Ã Ã¤Ã Ã­Ã­Ã®Ã¬ x: f = " << result << "; " << endl;
+cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ãµ:";
 cin >> x;
 	Pashkovskya::f();
-	cout << "Çíà÷åíèå ôóíêöèè ïðè ââåä¸ííîì x: f = " << result << "; " << endl;
-}*/
+	cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã¢Ã¢Ã¥Ã¤Â¸Ã­Ã­Ã®Ã¬ x: f = " << result << "; " << endl;
+}
