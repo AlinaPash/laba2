@@ -1,4 +1,4 @@
-﻿/*#include <iostream>
+#include <iostream>
 #include <math.h>
 using namespace std;
 void f(const double& x, double& f);
@@ -25,4 +25,4 @@ void main()
 void f(const double& x, double& f)
 {
 	f = (5 - 2 * x * x) / ((1 + x + x * x) / (2 * x + x * x) + 2 - (1 - x - x * x) / (2 * x - x * x));
-}*/
+}
