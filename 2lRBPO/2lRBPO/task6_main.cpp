@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <math.h>
 using namespace std;
 double f(double x);
@@ -8,9 +8,9 @@ void main()
 	double x;
 	cout.precision(4);
 	x = 7;
-	cout << "Çàäàííûé x = " << x << "; " << endl;
-	cout << "Çíà÷åíèå ôóíêöèè ïðè çàäàííîì x: f = " << f(x) << "; " << endl;
-cout << "Ââåäèòå õ:";
+	cout << "Ã‡Ã Ã¤Ã Ã­Ã­Ã»Ã© x = " << x << "; " << endl;
+	cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã§Ã Ã¤Ã Ã­Ã­Ã®Ã¬ x: f = " << f(x) << "; " << endl;
+cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ãµ:";
 cin >> x;
-cout << "Çíà÷åíèå ôóíêöèè ïðè ââåä¸ííîì x: f = " << f(x) << "; " << endl;
+cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ Ã¯Ã°Ã¨ Ã¢Ã¢Ã¥Ã¤Â¸Ã­Ã­Ã®Ã¬ x: f = " << f(x) << "; " << endl;
 }
